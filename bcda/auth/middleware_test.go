@@ -2,14 +2,14 @@ package auth_test
 
 import (
 	"fmt"
-	"github.com/CMSgov/bcda-app/bcda/testUtils"
+	"github.com/howardedidin/bcda-app/bcda/testUtils"
 	"log"
 	"net/http"
 	"net/http/httptest"
 	"os"
 	"testing"
 
-	"github.com/CMSgov/bcda-app/bcda/auth"
+	"github.com/howardedidin/bcda-app/bcda/auth"
 	"github.com/go-chi/chi"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"

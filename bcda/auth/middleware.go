@@ -9,7 +9,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/CMSgov/bcda-app/bcda/responseutils"
+	"github.com/howardedidin/bcda-app/bcda/responseutils"
 	"github.com/dgrijalva/jwt-go"
 	"github.com/dgrijalva/jwt-go/request"
 	"github.com/pborman/uuid"

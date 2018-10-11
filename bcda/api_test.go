@@ -9,8 +9,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/CMSgov/bcda-app/bcda/database"
-	"github.com/CMSgov/bcda-app/bcda/models"
+	"github.com/howardedidin/bcda-app/bcda/database"
+	"github.com/howardedidin/bcda-app/bcda/models"
 	"github.com/go-chi/chi"
 	"github.com/jinzhu/gorm"
 	"github.com/pborman/uuid"

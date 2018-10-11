@@ -15,7 +15,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/CMSgov/bcda-app/bcda/database"
+	"github.com/howardedidin/bcda-app/bcda/database"
 	"github.com/dgrijalva/jwt-go"
 	"github.com/pborman/uuid"
 )

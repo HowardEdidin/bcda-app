@@ -1,7 +1,7 @@
 package auth
 
 import (
-	"github.com/CMSgov/bcda-app/bcda/database"
+	"github.com/howardedidin/bcda-app/bcda/database"
 	"github.com/pborman/uuid"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"

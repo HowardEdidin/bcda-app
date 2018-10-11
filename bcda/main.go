@@ -10,8 +10,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/CMSgov/bcda-app/bcda/auth"
-	"github.com/CMSgov/bcda-app/bcda/models"
+	"github.com/howardedidin/bcda-app/bcda/auth"
+	"github.com/howardedidin/bcda-app/bcda/models"
 	"github.com/urfave/cli"
 
 	"github.com/bgentry/que-go"

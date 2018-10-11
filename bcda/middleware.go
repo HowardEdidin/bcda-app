@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/CMSgov/bcda-app/bcda/responseutils"
+	"github.com/howardedidin/bcda-app/bcda/responseutils"
 	"net/http"
 )
 

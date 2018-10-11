@@ -11,8 +11,7 @@
      Host: localhost
      BasePath: /v2
      Version: 1.0.0
-     License: https://github.com/CMSgov/bcda-app/blob/master/LICENSE.md
-     Contact: bcapi@cms.hhs.gov
+     License: https://github.com/howardedidin/bcda-app/blob/master/LICENSE.md
 
      Consumes:
      - application/json
@@ -42,11 +41,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/CMSgov/bcda-app/bcda/auth"
-	"github.com/CMSgov/bcda-app/bcda/client"
-	"github.com/CMSgov/bcda-app/bcda/database"
-	"github.com/CMSgov/bcda-app/bcda/models"
-	"github.com/CMSgov/bcda-app/bcda/responseutils"
+	"github.com/howardedidin/bcda-app/bcda/auth"
+	"github.com/howardedidin/bcda-app/bcda/client"
+	"github.com/howardedidin/bcda-app/bcda/database"
+	"github.com/howardedidin/bcda-app/bcda/models"
+	"github.com/howardedidin/bcda-app/bcda/responseutils"
 	"github.com/bgentry/que-go"
 	"github.com/dgrijalva/jwt-go"
 	fhirmodels "github.com/eug48/fhir/models"

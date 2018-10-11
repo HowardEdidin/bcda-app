@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/CMSgov/bcda-app/bcda/auth"
-	"github.com/CMSgov/bcda-app/bcda/database"
-	"github.com/CMSgov/bcda-app/bcda/testUtils"
+	"github.com/howardedidin/bcda-app/bcda/auth"
+	"github.com/howardedidin/bcda-app/bcda/database"
+	"github.com/howardedidin/bcda-app/bcda/testUtils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 	"github.com/urfave/cli"

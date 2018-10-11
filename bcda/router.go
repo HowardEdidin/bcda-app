@@ -7,8 +7,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/CMSgov/bcda-app/bcda/auth"
-	"github.com/CMSgov/bcda-app/bcda/logging"
+	"github.com/howardedidin/bcda-app/bcda/auth"
+	"github.com/howardedidin/bcda-app/bcda/logging"
 	"github.com/go-chi/chi"
 )
 

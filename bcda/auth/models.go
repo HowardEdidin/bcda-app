@@ -5,7 +5,7 @@ import (
 	_ "github.com/jinzhu/gorm/dialects/postgres"
 	"github.com/pborman/uuid"
 
-	"github.com/CMSgov/bcda-app/bcda/database"
+	"github.com/howardedidin/bcda-app/bcda/database"
 )
 
 func InitializeGormModels() *gorm.DB {
