@@ -10,7 +10,7 @@ RUN apk add --no-cache bash git gnupg
 
 RUN ln -s /usr/bin/python3 /usr/bin/python
 
-WORKDIR /go/src/github.com/CMSgov/bcda-app
+WORKDIR /go/src/github.com/HowardEdidin/bcda-app
 COPY . .
 
 ENTRYPOINT ["bash", "ops/release.sh"]
