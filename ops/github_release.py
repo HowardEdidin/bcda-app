@@ -18,7 +18,7 @@ def main(release, release_file):
         }
 
         base_url = "https://api.github.com"
-        path = "/repos/CMSgov/bcda-app/releases"
+        path = "/repos/HowardEdidin/bcda-app/releases"
         headers = {
             "Authorization": "token %s" % access_token
         }
