@@ -18,7 +18,7 @@ services:
       - POSTGRES_DB=bcda
       - POSTGRES_PASSWORD=toor
     ports:
-      - "5432:5432"
+      - "5434:5432"
     volumes:
       - ./db/api.sql:/docker-entrypoint-initdb.d/init.sql
       - ./db:/var/db
@@ -33,7 +33,7 @@ services:
       - JWT_PRIVATE_KEY_FILE=/var/local/private.pem
       - DEBUG=true
     volumes:
-     - .:/go/src/github.com/CMSgov/bcda-app
+     - .:/go/src/github.com/HowardEdidin/bcda-app
     ports:
       - "3000:3000"
     depends_on:
@@ -46,7 +46,7 @@ services:
       - QUEUE_DATABASE_URL=postgresql://postgres:toor@queue:5432/bcda_queue
       - DATABASE_URL=postgresql://postgres:toor@db:5432/bcda?sslmode=disable
     volumes:
-      - .:/go/src/github.com/CMSgov/bcda-app
+      - .:/go/src/github.com/HowardEdidin/bcda-app
     depends_on:
       - queue
   documentation:
@@ -54,4 +54,4 @@ services:
       context: .
       dockerfile: Dockerfiles/Dockerfile.documentation
     volumes:
-    - .:/go/src/github.com/CMSgov/bcda-app
+    - .:/go/src/github.com/HowardEdidin/bcda-app
